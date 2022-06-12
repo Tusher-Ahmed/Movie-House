@@ -1,38 +1,33 @@
-.App {
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+
+*{
+  margin:0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  background-color: #ddd;
+}
+.heading{
   text-align: center;
+  margin: 50px auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading h2{
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: rgb(199, 37, 37);
+  margin: 50px auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading input{
+  margin:0px auto;
+  width: 90%;
+  border: none;
+  border: 1px solid #000;
+  border-radius: 30px;
+  padding: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search{
+ margin-left: -40px;
+ cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movieCard{
+  margin-bottom: 30px;
 }
