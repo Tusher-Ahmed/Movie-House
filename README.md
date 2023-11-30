@@ -1,4 +1,4 @@
-##MOVIE HOUSE
+#MOVIE HOUSE
 
 This is a react js Movie project where I use omdbapi.
 
